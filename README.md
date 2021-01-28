@@ -1,28 +1,4 @@
-# ECE650 : Final Project
-
-Replace FIRST_NAME, LAST_NAME, WATIAM, and STUDENT_ID, EMAIL in
-`user.yml` by your first and last name, WatIAM id, student number, and
-email, respectively. The information must be entered for all members
-of your tema. Whenever possible, please use ASCII characters.
-
-Do not change the format `user.yml`. We will parse it
-automatically. Only enter the information requested.
-
-The main executable file for your solution to the assignment should be
-`ece650-prj`.
-
-Do not include MiniSat in your repository. We will clone it in your
-repository using the command. This is exactly the same as was done in
-Assignment 4.
-
-```
-git clone https://github.com/agurfinkel/minisat
-```
-
-Note that for the project you have to create a `CMakeLists.txt` on
-your own. You can use examples from previous assignments or from
-course examples on GitHub.
-
-Do not forget to include your report in `report.pdf`
-
-Commit your changes and submit on GitHub.
+# Analyzing-Performance-of-SAT-Solver-for-Solving-MIN-VERTEX-COVER-Problem
+In the mathematical discipline of graph theory, a vertex cover of a graph is a set of vertices such that each edge of the graph is incident to at least one vertex of the set. A minimum vertex cover is a vertex cover of smallest possible size. This problem of finding the minimum vertex cover is a classical optimization problem
+in computer science. It is a typical example of NP-hard optimization problem that has an approximation algorithm. In this report, we will use three different approaches to solve the minimum vertex cover problem by using C++ program which is multithreaded having 4 threads, one for I/O, and one each for the three
+different algorithms. The result shows the most effective way to solve minimum vertex cover.
